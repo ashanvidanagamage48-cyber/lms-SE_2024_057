@@ -6,7 +6,7 @@ import lms.service.Library;
 
 public class Main {
 
-
+//library management system
     public static void main(String[] args) {
         Library library = new Library();
 
