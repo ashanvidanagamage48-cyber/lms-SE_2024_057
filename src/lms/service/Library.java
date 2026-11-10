@@ -21,14 +21,14 @@ public class Library {
     }
 
     public void listBooks() {
-        System.out.println("Books in the library");
+        System.out.println("----Books in the library----");
         for (Book book : books) {
             System.out.println(book);
         }
     }
 
     public void listMembers() {
-        System.out.println("Registered");
+        System.out.println("----Registered----");
         for (Member member : members) {
             System.out.println(member);
         }
